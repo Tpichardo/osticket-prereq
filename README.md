@@ -15,3 +15,9 @@ osTicket is a free open-source help desk ticketing system companies can use to m
 - Internet Information Services (IIS)
 
 <h2>Create Virtual Machine</h2>
+
+1. Log in to the Azure portal.
+2. Create a Virtual Machine
+   - Use a Windows 10 image to create your VM
+   - For VM size, select anything with 2-4 virtual CPUs (vcpus).
+   - Save your authentication credentials as we will use them for authenticating later.
