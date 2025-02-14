@@ -50,9 +50,9 @@ IIS is a web server that is part of Windows systems. We will use IIS to host our
     - Go into the <b>Control Panel</b>. You can find it by typing <b>Control Panel</b> in the search bar
     - Select <b>Programs</b>
     - Select <b>Turn Windows features on or off</b>
-    - Check the checkbox next to Internet Information Services to enable it
+    - Check the checkbox next to <b>Internet Information Services</b> to enable it
 2. To Enable CGI
    - Click the <b>+</b> to expand Internet Information Services
    - Expand <b>World Wide Web Services</b>
    - Expand <b>Application Development Features</b>
-   - Check the checkbox next to <b>CGI</b>
+   - Check the checkbox next to <b>CGI</b> to enable it
