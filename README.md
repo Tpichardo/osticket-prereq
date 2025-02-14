@@ -41,3 +41,7 @@ Using a Virtual Machine to test software is a great practice because it keeps th
    
     <img src="https://i.imgur.com/dkhuqJB.png" height="80%" width="80%" alt=""/>
 5. Feel free to toggle no for all privacy settings.
+
+<h2>Enable IIS with CGI</h2>
+
+IIS is a web server that is part of Windows systems. We will use IIS to host our osTicket web application. Since osTicket is built with PHP and IIS does not know how to process PHP files by itself, we will use CGI to pass requests for PHP files from IIS to the PHP interpreter. The PHP interpreter will then process the file, and CGI will send the result back to IIS, which will deliver the page to the browser.
