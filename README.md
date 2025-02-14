@@ -25,3 +25,19 @@ Using a Virtual Machine to test software is a great practice because it keeps th
    - Use a Windows 10 image to create your VM
    - For VM size, select anything with 2-4 virtual CPUs (vcpus).
    - Save your authentication credentials as you will use them for authenticating later.
+
+<h2>Connect to Windows VM</h2>
+
+1. Open the Windows App and click on the <b>+</b> at the top right of the window. Then select <b>add PC</b>
+   
+   <img src="https://i.imgur.com/q2CIjtQ.png" height="80%" width="80%" alt="interface for adding a PC on the Windows App"/>
+2. Paste your Windows VM's public IP address for <b>PC name</b>. Feel free to give your VM whatever friendly name you would like. I named mine windows-vm so that I can easily know what operating system is running on the PC. Then click <b>Add</b> to add the VM.
+   
+      <img src="https://i.imgur.com/cvBmV30.png" height="80%" width="80%" alt=""/>
+3. Click on the ellipsis and select <b>connect</b> to connect to the Windows VM.
+   
+   <img src="https://i.imgur.com/OKSJhL1.png" height="80%" width="80%" alt=""/>
+4. Add the username and password you created when you created your Virtual Machine in the Azure portal to authenticate, and click continue.
+   
+    <img src="https://i.imgur.com/dkhuqJB.png" height="80%" width="80%" alt=""/>
+5. Feel free to toggle no for all privacy settings.
