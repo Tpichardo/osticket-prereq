@@ -80,10 +80,13 @@ The dependencies needed for the osTicket installation are bundled together in a 
      - Right click the top-level entry <b>osticket-vm</b> in IIS.
      - Select <b>Stop</b>, then repeat the steps to <b>Start</b> the server.
 
+<h2>Install the Rewrite Module</h2>
+The Rewrite Module helps IIS modify URLs to create user-friendly URLs that are easier to read, share, and remember.
 
+1. Install the <b>Rewrite Module (rewrite_amd64_en-US.msi)</b> from the “osTicket-Installation-Files” folder. 
 
-
-
+<h2>Install MySQL</h2>
+MySQL is a relational database management system used to store osTicket data in this instance
 
 
    
