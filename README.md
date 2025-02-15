@@ -118,7 +118,7 @@ Some required PHP extensions are disabled by default. Lets enable them:
 
 1. In IIS, on the left-hand panel, select <b>Sites</b> -> <b>Default Websites</b> -> <b>osTicket</b>.
 2. Double click <b>PHP Manager</b>.
-3. Click <b>Enable or disable extension</b>
+3. Click <b>Enable or disable extension</b>.
 4. To enable an extension, right-click it and select <b>Enable</b>.
    - Extensions to enable:
       - <b>php_imap.dll</b>
