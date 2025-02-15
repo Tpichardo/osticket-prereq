@@ -96,5 +96,12 @@ MySQL is a relational database management system used to store and manage data. 
      - Select <b>Standard Configuration</b>.
      - Setup a simple password for the root user. Be sure to keep track of these credentials.
      - Follow the remaining steps in the Wizard and select <b>Execute</b> to complete the setup.
-   
- 
+
+<h2>Install osTicket</h2>
+
+1. Unzip <b>“osTicket-v1.15.8.zip”</b> from the “osTicket-Installation-Files” folder
+2. Copy the <b>Upload</b> folder into <b>“c:\inetpub\wwwroot”</b>. The <b>wwwroot</b> folder is the root directory for IIS-hosted websites. By placing the osTicket files here, IIS will know where to find them when the application is accessed.
+3. Within <b>c:\inetpub\wwwroot</b>, rename “upload” to “osTicket”. This will help IIS serve the application under the name "osTicket" when accessed through a browser. Ex: <b>http://localhost/osTicket</b>
+4. Stop and restart the server to apply changes:
+     - Right click the top-level entry <b>osticket-vm</b> in IIS.
+     - Select <b>Stop</b>, then repeat the steps to <b>Start</b> the server.
