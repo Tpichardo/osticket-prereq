@@ -105,3 +105,10 @@ MySQL is a relational database management system used to store and manage data. 
 4. Stop and restart the server to apply changes:
      - In IIS right-click the top-level entry labeled <b>osticket-vm</b> in IIS.
      - Select <b>Stop</b>, and then repeat the process to <b>Start</b> the server.
+
+<h2>Open osTicket in Browser</h2>
+
+1. In the left-hand panel, select <b>Sites</b> from the file hierarchy.
+2. Expland <b>Default Websites</b>.
+3. Select <b>osTicket</b>.
+4. In the right-hand panel, click <b>Browse *:80</b> to open osTicket in your browser.
