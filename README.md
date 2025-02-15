@@ -59,10 +59,10 @@ IIS is a web server that is part of Windows systems. We will use IIS to host our
    - Check the checkbox next to <b>CGI</b> to enable it  
        <img height="65%" width="65%" alt="" src="https://github.com/user-attachments/assets/924f961f-1c78-4820-b711-0ba629994448" />
 <h2>Extract osTicket Installation Files</h2>
-The files needed for the osTicket installation are bundled together in a single ZIP folder for easy download: 
+The files needed for the osTicket installation are bundled together in a single ZIP folder for easy download.
 
-1. Download the ZIP folder
-2. Extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation
+1. Download this [ZIP folder](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
+2. Extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation.
 
 
  
