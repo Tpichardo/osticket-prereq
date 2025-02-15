@@ -63,7 +63,7 @@ IIS is a web server that is part of Windows systems. We will use IIS to host our
 The dependencies needed for the osTicket installation are bundled together in a single ZIP folder for easy download.
 
 1. Download the [ZIP folder](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
-2. Right click the ZIP folder and select <b>Extract All</b> to extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation. The extracted folder should be called “osTicket-Installation-Files”.
+2. Right-click the ZIP folder and select <b>Extract All</b> to extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation. The extracted folder should be called “osTicket-Installation-Files”.
 
 <h2>Configuring PHP for IIS</h2>
 
@@ -77,7 +77,7 @@ The dependencies needed for the osTicket installation are bundled together in a 
    - Click <b>Register new PHP version</b>.
    - Paste the file path to the PHP executable. Since we placed PHP in the <b>C:/PHP</b> directory, our path should be <b>C:\PHP\php-cgi.exe</b>.
    - Stop and restart the server to apply changes:
-     - Right click the top-level entry <b>osticket-vm</b> in IIS.
+     - In IIS right-click the top-level entry <b>osticket-vm</b> in IIS.
      - Select <b>Stop</b>, then repeat the steps to <b>Start</b> the server.
 
 <h2>Install the Rewrite Module</h2>
