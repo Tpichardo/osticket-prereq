@@ -86,11 +86,15 @@ The Rewrite Module helps IIS modify URLs to create user-friendly URLs that are e
 1. Install the <b>Rewrite Module (rewrite_amd64_en-US.msi)</b> from the “osTicket-Installation-Files” folder. 
 
 <h2>Install MySQL</h2>
-MySQL is a relational database management system used to store osTicket data in this instance.
+MySQL is a relational database management system used to store and manage data. In this instance, we will use it to store osTicket data, such as user accounts and ticketing information.
 
-1. 
-
-
-   
+1. Install <b>MySQL 5.5.62 (mysql-5.5.62-win32.msi)</b> from the “osTicket-Installation-Files” folder.
+2. Follow the installation Wizard:
+   - Select <b>Typical</b> for Setup Type.
+   - After installation, launch the configuation wizard.
+   - For Serve Instance Configuration:
+     - Select <b>Standard Configuration</b>.
+     - Setup a simple password for the root user. Be sure to keep track of these credentials.
+     - Follow the remaining steps in the Wizard and select <b>Execute</b> to complete the setup.
    
  
