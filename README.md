@@ -103,5 +103,5 @@ MySQL is a relational database management system used to store and manage data. 
 2. Copy the <b>Upload</b> folder into <b>“c:\inetpub\wwwroot”</b>. The <b>wwwroot</b> folder is the root directory for IIS-hosted websites. By placing the osTicket files here, IIS will know where to find them when the application is accessed.
 3. Within <b>c:\inetpub\wwwroot</b>, rename “upload” to “osTicket”. This will help IIS serve the application under the name "osTicket" when accessed through a browser. Ex: <b>http://localhost/osTicket</b>
 4. Stop and restart the server to apply changes:
-     - Right click the top-level entry <b>osticket-vm</b> in IIS.
-     - Select <b>Stop</b>, then repeat the steps to <b>Start</b> the server.
+     - In IIS right-click the top-level entry labeled <b>osticket-vm</b> in IIS.
+     - Select <b>Stop</b>, and then repeat the process to <b>Start</b> the server.
