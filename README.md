@@ -107,13 +107,14 @@ MySQL is a relational database management system used to store and manage data. 
      - Select <b>Stop</b>, and then repeat the process to <b>Start</b> the server.
 
 <h2>Open osTicket in Browser</h2>
+Let's access osTicket in the browser to ensure IIS is serving the app.
 
 1. In IIS, on the left-hand panel, select <b>Sites</b> from the file hierarchy.
 2. Expland <b>Default Websites</b>.
 3. Select <b>osTicket</b>.
 4. In the right-hand panel, click <b>Browse *:80</b> to open osTicket in your browser.
 
-<h2>Enable Extensions</h2>
+<h2>Enable PHP Extensions</h2>
 Some required PHP extensions are disabled by default. Lets enable them:
 
 1. In IIS, on the left-hand panel, select <b>Sites</b> -> <b>Default Websites</b> -> <b>osTicket</b>.
@@ -127,5 +128,5 @@ Some required PHP extensions are disabled by default. Lets enable them:
 5. Refresh the browser to observe the changes.
 
 <h2>Rename: ost-config.php</h2>
-
-1. 
+<h2>Database Setup & Final Installation</h2>
+<h2>Post-Installation Cleanup</h2>
