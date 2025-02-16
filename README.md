@@ -97,7 +97,7 @@ MySQL is a relational database management system used to store and manage data. 
      - Setup a simple password for the root user. Be sure to keep track of these credentials.
      - Follow the remaining steps in the Wizard and select <b>Execute</b> to complete the setup.
 
-<h2>Install osTicket</h2>
+<h2>Setup osTicket files</h2>
 
 1. Unzip <b>“osTicket-v1.15.8.zip”</b> from the “osTicket-Installation-Files” folder
 2. Copy the <b>Upload</b> folder into <b>“c:\inetpub\wwwroot”</b>. The <b>wwwroot</b> folder is the root directory for IIS-hosted websites. By placing the osTicket files here, IIS will know where to find them when the application is accessed.
@@ -125,3 +125,7 @@ Some required PHP extensions are disabled by default. Lets enable them:
       - <b>php_intl.dll</b>
       - <b>php_opcache.dll</b>
 5. Refresh the browser to observe the changes.
+
+<h2>Rename: ost-config.php</h2>
+
+1. 
