@@ -126,7 +126,12 @@ Some required PHP extensions are disabled by default. Lets enable them:
       - <b>php_intl.dll</b>
       - <b>php_opcache.dll</b>
 5. Refresh the browser to observe the changes.
+<h2>Rename: ost-sampleconfig.php</h2>
+The file <b>ost-sampleconfig.php</b> is a template configuration file included with osTicket. It is named this way by default to ensure flexibility and security during installation and updates. By renaming it, we are creating the active configuration file required for osTicket to function.
 
-<h2>Rename: ost-config.php</h2>
+1. Follow the path to rename the file:
+   - From: <b>C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</b>
+   - To: <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>
+ 
 <h2>Database Setup & Final Installation</h2>
 <h2>Post-Installation Cleanup</h2>
