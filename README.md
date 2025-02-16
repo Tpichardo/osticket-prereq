@@ -138,15 +138,15 @@ The file <b>ost-sampleconfig.php</b> is a template configuration file included w
 <h3>Assign Permissions</h3>
 To allow osTicket to make changes on the backend and store database configuration details, we need to modify the permissions for <b>ost-config.php</b>.
 
-Right-click <b>ost-config.php</b>.
-Select <b>Properties</b>.
-Go to the <b>Security</b> tab.
-Click <b>Advanced</b>.
-Click <b>Disable inheritance</b> to remove all current permissions.
-In the pop-up, select <b>Remove all inherited permissions from this object</b>.
-Click <b>Add</b> to assign new permissions.
-Select <b>Select a principal</b>.
-Under <b>Enter the object name to select</b>, type <b>Everyone</b>.
+1. Right-click <b>ost-config.php</b>.
+2. Select <b>Properties</b>.
+3. Go to the <b>Security</b> tab.
+4. Click <b>Advanced</b>.
+5. Click <b>Disable inheritance</b> to remove all current permissions.
+6. In the pop-up, select <b>Remove all inherited permissions from this object</b>.
+7. Click <b>Add</b> to assign new permissions.
+8. Select <b>Select a principal</b>.
+9. Under <b>Enter the object name to select</b>, type <b>Everyone</b>.
 <i>Note:</i> Assigning permissions to "Everyone" is not recommended in real-world scenarios. We are using it here for simplicity and because we do not know which user account represents osTicket.
 Click <b>OK</b>.
 Check the box for <b>Full control</b>.
