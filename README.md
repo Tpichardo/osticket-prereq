@@ -135,24 +135,24 @@ The file <b>ost-sampleconfig.php</b> is a template configuration file included w
    - From: <b>C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</b>
    - To: <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>
    
-<h3>Assign Permission:s</h3>
-Let's modify the permissions for <b>ost-config.php</b> to make sure that osTicket is able to make changes on the backend and store our database configuration details.
+<h3>Assign Permissions</h3>
+To allow osTicket to make changes on the backend and store database configuration details, we need to modify the permissions for <b>ost-config.php</b>.
 
-1. Right-click ost-config.php.
-2. Select <b>Properties</b>.
-3. Select the <b>Security</b> tab.
-4. Click <b>Advanced</b>.
-5. Select <b>Disable inheritance</b> to remove all the current permissions.
-6. Select <b>Remove all inherited permissions from this object</b>
-7. Select <b>Add</b> to add new permissions
-8. Click <b>Select a principal</b>.
-9. Type <b>Everyone</b> under <b>Enter the object name to select</b>. Note: This is not appropriate to do in real life situations, we are just doing this in this intance because we don't know the user the osTicket represents.
-10. Select <b>Ok</b>.
-11. Check <b>Full control</b>.
-12. Select <b>Ok</b>.
-13. Select <b>Apply</b>.
-14. Select <b>Ok</b>.
-
+Right-click <b>ost-config.php</b>.
+Select <b>Properties</b>.
+Go to the <b>Security</b> tab.
+Click <b>Advanced</b>.
+Click <b>Disable inheritance</b> to remove all current permissions.
+In the pop-up, select <b>Remove all inherited permissions from this object</b>.
+Click <b>Add</b> to assign new permissions.
+Select <b>Select a principal</b>.
+Under <b>Enter the object name to select</b>, type <b>Everyone</b>.
+<i>Note:</i> Assigning permissions to "Everyone" is not recommended in real-world scenarios. We are using it here for simplicity and because we do not know which user account represents osTicket.
+Click <b>OK</b>.
+Check the box for <b>Full control</b>.
+Click <b>OK</b>.
+Click <b>Apply</b>.
+Click <b>OK</b> to close all windows.
  
 <h2>Database Setup & Final Installation</h2>
 <h2>Post-Installation Cleanup</h2>
