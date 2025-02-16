@@ -126,12 +126,33 @@ Some required PHP extensions are disabled by default. Lets enable them:
       - <b>php_intl.dll</b>
       - <b>php_opcache.dll</b>
 5. Refresh the browser to observe the changes.
-<h2>Rename: ost-sampleconfig.php</h2>
+<h2>Configure ost-config.php</h2>
+
+<h3>Rename ost-sampleconfig.php:</h3>
 The file <b>ost-sampleconfig.php</b> is a template configuration file included with osTicket. It is named this way by default to ensure flexibility and security during installation and updates. By renaming it, we are creating the active configuration file required for osTicket to function.
 
 1. Follow the path to rename the file:
    - From: <b>C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</b>
    - To: <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>
+   
+<h3>Assign Permission:s</h3>
+Let's modify the permissions for <b>ost-config.php</b> to make sure that osTicket is able to make changes on the backend and store our database configuration details.
+
+1. Right-click ost-config.php.
+2. Select <b>Properties</b>.
+3. Select the <b>Security</b> tab.
+4. Click <b>Advanced</b>.
+5. Select <b>Disable inheritance</b> to remove all the current permissions.
+6. Select <b>Remove all inherited permissions from this object</b>
+7. Select <b>Add</b> to add new permissions
+8. Click <b>Select a principal</b>.
+9. Type <b>Everyone</b> under <b>Enter the object name to select</b>. Note: This is not appropriate to do in real life situations, we are just doing this in this intance because we don't know the user the osTicket represents.
+10. Select <b>Ok</b>.
+11. Check <b>Full control</b>.
+12. Select <b>Ok</b>.
+13. Select <b>Apply</b>.
+14. Select <b>Ok</b>.
+
  
 <h2>Database Setup & Final Installation</h2>
 <h2>Post-Installation Cleanup</h2>
