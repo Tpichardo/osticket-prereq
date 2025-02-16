@@ -155,4 +155,6 @@ To allow osTicket to make changes on the backend and store database configuratio
 14. Click <b>OK</b> to close all windows.
  
 <h2>Database Setup & Final Installation</h2>
+
+1. Fill out the form with your information to continue the osTicket installation process. 
 <h2>Post-Installation Cleanup</h2>
