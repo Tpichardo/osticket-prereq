@@ -156,5 +156,6 @@ To allow osTicket to make changes on the backend and store database configuratio
  
 <h2>Database Setup & Final Installation</h2>
 
-1. Fill out the form with your information to continue the osTicket installation process. 
+1. In the browser, select <b>Continue</b> to continue the osTicket installation process.
+2. Fill out the form with your information.
 <h2>Post-Installation Cleanup</h2>
