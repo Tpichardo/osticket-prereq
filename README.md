@@ -148,11 +148,11 @@ To allow osTicket to make changes on the backend and store database configuratio
 8. Select <b>Select a principal</b>.
 9. Under <b>Enter the object name to select</b>, type <b>Everyone</b>.
 <i>Note:</i> Assigning permissions to "Everyone" is not recommended in real-world scenarios. We are using it here for simplicity and because we do not know which user account represents osTicket.
-Click <b>OK</b>.
-Check the box for <b>Full control</b>.
-Click <b>OK</b>.
-Click <b>Apply</b>.
-Click <b>OK</b> to close all windows.
+10. Click <b>OK</b>.
+11. Check the box for <b>Full control</b>.
+12. Click <b>OK</b>.
+13. Click <b>Apply</b>.
+14. Click <b>OK</b> to close all windows.
  
 <h2>Database Setup & Final Installation</h2>
 <h2>Post-Installation Cleanup</h2>
