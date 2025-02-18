@@ -153,9 +153,12 @@ To allow osTicket to make changes on the backend and store database configuratio
 12. Click <b>OK</b>.
 13. Click <b>Apply</b>.
 14. Click <b>OK</b> to close all windows.
+
+<h2>Install HeidiSQL</h2>
  
 <h2>Database Setup & Final Installation</h2>
 
 1. In the browser, select <b>Continue</b> to continue the osTicket installation process.
-2. Fill out the form with your information. <i>Note:</i> The <b>Default Email</b> and the <b>Admin User Email address</b> must be different. 
+2. Fill out the form with your information. <i>Note:</i> The <b>Default Email</b> and the <b>Admin User Email address</b> must be different.
+3. Create a <b>username</b> and <b>password</b> for Admin User
 <h2>Post-Installation Cleanup</h2>
