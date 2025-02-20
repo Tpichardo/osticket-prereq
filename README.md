@@ -170,5 +170,10 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
 
 1. In the browser, select <b>Continue</b> to continue the osTicket installation process.
 2. Fill out the form with your information. <i>Note:</i> The <b>Default Email</b> and the <b>Admin User Email address</b> must be different.
-3. Create a <b>username</b> and <b>password</b> for Admin User
+  - System Settings:
+       - Create a <b>Helpdesk Name</b>.
+       - Add a <b>Default Email</b>.
+   - Admin User:
+     - Add your <b>Name</b>, <b>Last Name</b>, and <b>Email address</b>.
+     - Create a <b>username</b> and <b>password</b> for Admin User
 <h2>Post-Installation Cleanup</h2>
