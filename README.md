@@ -183,12 +183,12 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
 - Click <b>Install Now</b>
 
 <h2>Test Installation</h2>
-To ensure that osTicket was properly installed and configured lets browse to the admin and end user pages.
+To ensure that osTicket was properly installed and configured, let's browse to the Admin and End User pages.
 
 1. Admin:
    - URL: http://localhost/osTicket/scp/login.php
    - Sign in with your <b>Admin User</b> credentials.
-   - You should see 1 ticket in the queue with the subject: <b>osTicket Installed</b>.
+   - You should see 1 ticket in the queue with the subject: <b>osTicket Installed</b>. This confirms that osTicket is successfully installed!
 2. End User:
    - URL: http://localhost/osTicket/ 
  
