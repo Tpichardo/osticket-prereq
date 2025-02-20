@@ -196,7 +196,7 @@ To ensure that osTicket was properly installed and configured, let's browse to t
 To secure your osTicket installation and reduce vulnerabilities, follow these steps:
 
 1. Delete the setup folder: The setup folder contains installation files that can be overwritten. Deleting it prevents your osTicket installation from being tampered with.
-   - Delete: C:\inetpub\wwwroot\osTicket\setup.
+   - Delete: <b>C:\inetpub\wwwroot\osTicket\setup</b>.
 2. Set permissions to "Read" only: The ost-config.php file contains your database credentials. Changing its permission to "Read" only prevents sensitive information from being modified and enhances overall security.
-   - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php.
+   - Set Permissions to “Read” only: <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>.
 
