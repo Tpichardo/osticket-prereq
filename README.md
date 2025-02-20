@@ -155,6 +155,9 @@ To allow osTicket to make changes on the backend and store database configuratio
 14. Click <b>OK</b> to close all windows.
 
 <h2>Install HeidiSQL</h2>
+HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQL database. It eliminates the need to write SQL commands in the command line by offering a visual way to create databases, manage tables, and run queries. This makes database management simpler and more accessible, especially for those who are not comfortable using the command line.
+
+
  
 <h2>Database Setup & Final Installation</h2>
 
