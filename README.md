@@ -172,7 +172,7 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
 2. Fill out the form with your information. <i>Note:</i> The <b>Default Email</b> and the <b>Admin User Email address</b> must be different.
   - System Settings:
        - Create a <b>Helpdesk Name</b>.
-       - Add a <b>Default Email</b>.
+       - Add a <b>Default Email</b>. <i>Note:</i> This is the email address that will receive emails from customers.
    - Admin User:
      - Add your <b>Name</b>, <b>Last Name</b>, and <b>Email address</b>.
      - Create a <b>username</b> and <b>password</b> for Admin User.
