@@ -47,10 +47,10 @@ Using a Virtual Machine to test software is a great practice because it keeps th
 IIS is a web server that is part of Windows systems. We will use IIS to host our osTicket web application. Since osTicket is built with PHP and IIS does not know how to process PHP files by itself, we will use CGI to pass requests for PHP files from IIS to the PHP interpreter. The PHP interpreter will then process the file, and CGI will send the result back to IIS, which will deliver the page to the browser.
 
 1. To Enable IIS:
-    - Go into the <b>Control Panel</b>. You can find it by typing <b>Control Panel</b> in the search bar on the bottom left
-    - Select <b>Programs</b>
-    - Select <b>Turn Windows features on or off</b>
-    - Check the checkbox next to <b>Internet Information Services</b> to enable it
+    - Go into the <b>Control Panel</b>. You can find it by typing <b>Control Panel</b> in the search bar on the bottom left.
+    - Select <b>Programs</b>.
+    - Select <b>Turn Windows features on or off</b>.
+    - Check the checkbox next to <b>Internet Information Services</b> to enable it.
         <img height="65%" width="65%" alt="" src="https://github.com/user-attachments/assets/69ba977e-7d93-4d98-a47e-6b8d728b611c" />      
 2. To Enable CGI:
    - Click the <b>+</b> to expand Internet Information Services.
