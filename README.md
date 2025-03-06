@@ -67,8 +67,9 @@ IIS is a web server that is part of Windows systems. We will use IIS to host our
 <h2>Extract osTicket Installation Files</h2>
 The dependencies needed for the osTicket installation are bundled together in a single ZIP folder for easy download.
 
-1. Download the [ZIP folder](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
-2. Right-click the ZIP folder and select <b>Extract All</b> to extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation. The extracted folder should be called “osTicket-Installation-Files”.
+1. Open the browser on your VM.
+2. Paste [this](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) link to download the ZIP folder containing all the files needed for this osTicket installation.
+3. Right-click the ZIP folder and select <b>Extract All</b> to extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation. The extracted folder should be called “osTicket-Installation-Files”.
 
 <h2>Configuring PHP for IIS</h2>
 
