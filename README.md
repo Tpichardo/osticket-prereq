@@ -61,7 +61,7 @@ IIS is a web server that is part of Windows systems. We will use IIS to host our
    - Click the <b>+</b> to the left of <b>Internet Information Services</b> to expand it.
    - Expand <b>World Wide Web Services</b>.
    - Expand <b>Application Development Features</b>.
-   - Check the checkbox next to <b>CGI</b> to enable it.  
+   - Check the checkbox next to <b>CGI</b> to enable it, and select <b>Ok</b>.  
        <img height="65%" width="65%" alt="" src="https://github.com/user-attachments/assets/924f961f-1c78-4820-b711-0ba629994448" />
 
 <h2>Extract osTicket Installation Files</h2>
