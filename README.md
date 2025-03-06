@@ -182,7 +182,7 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
        - Create a <b>Helpdesk Name</b>.
        - Add a <b>Default Email</b>. <i>Note:</i> This is the email address that will receive emails from customers.
    - Admin User:
-     - Add your <b>Name</b>, <b>Last Name</b>, and <b>Email address</b>.
+     - Add your <b>Name</b>, <b>Last Name</b>, and an additional <b>Email address</b>.
      - Create a <b>username</b> and <b>password</b> for Admin User.
    - Database Settings:
      - MySQL Database: osTicket.
