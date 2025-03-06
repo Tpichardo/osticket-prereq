@@ -133,7 +133,7 @@ Some required PHP extensions are disabled by default. Lets enable them:
       - <b>php_imap.dll</b>
       - <b>php_intl.dll</b>
       - <b>php_opcache.dll</b>
-5. Refresh the browser to observe the changes.
+5. Refresh the browser to observe the changes or visit <b>http://localhost/osTicket</b>.
 <h2>Configure ost-config.php</h2>
 
 <h3>Rename ost-sampleconfig.php:</h3>
