@@ -13,6 +13,8 @@ osTicket is a free open-source help desk ticketing system companies can use to m
 - Microsoft Azure (Virtual Machine)
 - [Windows App](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12) for macOS or Remote Desktop for Windows  
 - Internet Information Services (IIS)
+- MySQL
+- HeidiSQL
 
 <h2>Why Are We Using a Virtual Machine?</h2>
 
