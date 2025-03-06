@@ -187,7 +187,7 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
    - Database Settings:
      - MySQL Database: osTicket.
      - MySQL Username: root.
-     - MySQL Password: root.
+     - MySQL Password: The password you created when configuring MySQL.
 - Click <b>Install Now</b>.
 
 <h2>Test Installation</h2>
