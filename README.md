@@ -43,6 +43,9 @@ Using a Virtual Machine to test software is a great practice because it keeps th
    
     <img src="https://i.imgur.com/dkhuqJB.png" height="80%" width="80%" alt=""/>
 5. Feel free to toggle no for all privacy settings.
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 10 21 35 AM" src="https://github.com/user-attachments/assets/816ffd66-35d4-4d9e-a061-bf9eb916c8b9" />
+
+
 
 <h2>Enable Internet Information Services (IIS) with Commmon Gateway Interface (CGI)</h2>
 
