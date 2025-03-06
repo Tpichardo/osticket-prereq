@@ -108,7 +108,7 @@ MySQL is a relational database management system used to store and manage data. 
 <h2>Setup osTicket files</h2>
 
 1. Right-click <b>“osTicket-v1.15.8.zip”</b> from the “osTicket-Installation-Files” folder and select <b>Extract All</b>.
-2. Copy the <b>Upload</b> folder into <b>“c:\inetpub\wwwroot”</b>. The <b>wwwroot</b> folder is the root directory for IIS-hosted websites. By placing the osTicket files here, IIS will know where to find them when the application is accessed.
+2. Open the unzipped foder <b>“osTicket-v1.15.8”</b>, and drag the <b>Upload</b> folder into <b>“c:\inetpub\wwwroot”</b>. The <b>wwwroot</b> folder is the root directory for IIS-hosted websites. By placing the osTicket files here, IIS will know where to find them when the application is accessed.
 3. Within <b>c:\inetpub\wwwroot</b>, rename “upload” to “osTicket”. This will help IIS serve the application under the name "osTicket" when accessed through a browser. Ex: <b>http://localhost/osTicket</b>
 4. Stop and restart the server to apply changes:
      - In IIS right-click the top-level entry labeled <b>osticket-vm</b> in IIS.
