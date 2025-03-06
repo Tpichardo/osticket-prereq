@@ -176,7 +176,7 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
  
 <h2>Database Setup & Final Installation</h2>
 
-1. In the browser, select <b>Continue</b> to continue the osTicket installation process.
+1. In the browser, select <b>Continue</b> to continue the osTicket installation process, If you closed the window, the URL is  <b>http://localhost/osTicket</b>.
 2. Fill out the form with your information. <i>Note:</i> The <b>Default Email</b> and the <b>Admin User Email address</b> must be different.
   - System Settings:
        - Create a <b>Helpdesk Name</b>.
