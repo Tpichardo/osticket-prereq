@@ -148,7 +148,7 @@ To allow osTicket to make changes on the backend and store database configuratio
 
 1. Right-click <b>ost-config.php</b>.
 2. Select <b>Properties</b>.
-3. Go to the <b>Security</b> tab.
+3. Select the <b>Security</b> tab.
 4. Click <b>Advanced</b>.
 5. Click <b>Disable inheritance</b> to remove all current permissions.
 6. In the pop-up, select <b>Remove all inherited permissions from this object</b>.
