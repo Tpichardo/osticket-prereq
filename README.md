@@ -85,7 +85,7 @@ The dependencies needed for the osTicket installation are bundled together in a 
    - Click <b>Register new PHP version</b>.
    - Paste the file path to the PHP executable. Since we placed PHP in the <b>C:/PHP</b> directory, our path should be <b>C:\PHP\php-cgi.exe</b>.
    - Stop and restart the server to apply changes:
-     - In IIS right-click the top-level entry <b>osticket-vm</b> in IIS.
+     - In IIS right-click the top-level entry.
      - Select <b>Stop</b>, then repeat the steps to <b>Start</b> the server.
 
 <h2>Install the Rewrite Module</h2>
