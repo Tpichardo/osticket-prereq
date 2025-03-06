@@ -23,7 +23,7 @@ Using a Virtual Machine to test software is a great practice because it keeps th
 <h2>Create Virtual Machine</h2>
 
 1. Log in to the Azure portal.
-2. Create a Virtual Machine
+2. Create a Virtual Machine:
    - Use a Windows 10 image to create your VM.
    - For VM size, select anything with 2-4 virtual CPUs (vcpus).
    - Save your authentication credentials as you will use them for authenticating later.
