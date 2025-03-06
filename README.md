@@ -69,7 +69,9 @@ The dependencies needed for the osTicket installation are bundled together in a 
 
 1. Open the browser on your VM.
 2. Copy and paste [this link](https://docs.google.com/document/d/1aT20BxyepQpP6PAVp9QQ_p1fYtP7Cip2UxhMYVfY97s/edit?tab=t.0) into the browser on your VM to download the ZIP folder containing all the necessary files for the osTicket installation.
-3. Right-click the ZIP folder and select <b>Extract All</b> to extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation. The extracted folder should be called “osTicket-Installation-Files”.
+3. Click the folder icon in the download window on the browser.
+4. Move the ZIP folder to your desktop.
+5. Right-click the ZIP folder and select <b>Extract All</b> to extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation. The extracted folder should be called “osTicket-Installation-Files”.
 
 <h2>Configuring PHP for IIS</h2>
 
