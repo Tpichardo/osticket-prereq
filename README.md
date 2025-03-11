@@ -58,6 +58,8 @@ IIS is a web server that is part of Windows systems. We will use IIS to host our
       <br>
       <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 10 29 23 AM" src="https://github.com/user-attachments/assets/ef0e58cf-2af9-4873-b48c-4d7b7b930761" />
     - Select <b>Turn Windows features on or off</b>.
+      <br>
+      <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 10 29 39 AM" src="https://github.com/user-attachments/assets/e3b7931d-a622-495b-9b86-60c6d9817334" />
     - Check the checkbox next to <b>Internet Information Services</b> to enable it.
       <br>
       <img height="80%" width="80%" alt="" src="https://github.com/user-attachments/assets/69ba977e-7d93-4d98-a47e-6b8d728b611c" />      
