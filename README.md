@@ -33,16 +33,16 @@ Using a Virtual Machine to test software is a great practice because it keeps th
 1. Open the Windows App and click on the <b>+</b> at the top right of the window. Then select <b>add PC</b>
    <br>
    <img src="https://i.imgur.com/q2CIjtQ.png" height="80%" width="80%" alt="interface for adding a PC on the Windows App"/>
-3. Paste your Windows VM's public IP address for <b>PC name</b>. Feel free to give your VM whatever friendly name you would like. I named mine windows-vm so that I can easily know what operating system is running on the PC. Then click <b>Add</b> to add the VM.
+2. Paste your Windows VM's public IP address for <b>PC name</b>. Feel free to give your VM whatever friendly name you would like. I named mine windows-vm so that I can easily know what operating system is running on the PC. Then click <b>Add</b> to add the VM.
    <br>
    <img src="https://i.imgur.com/cvBmV30.png" height="80%" width="80%" alt=""/>
-5. Click on the ellipsis and select <b>connect</b> to connect to the Windows VM.
+3. Click on the ellipsis and select <b>connect</b> to connect to the Windows VM.
    <br>
    <img src="https://i.imgur.com/OKSJhL1.png" height="80%" width="80%" alt=""/>
-7. Add the username and password you created when you created your Virtual Machine in the Azure portal to authenticate, and click continue.
+4. Add the username and password you created when you created your Virtual Machine in the Azure portal to authenticate, and click continue.
    <br>
    <img src="https://i.imgur.com/dkhuqJB.png" height="80%" width="80%" alt=""/>
-9. Feel free to toggle no for all privacy settings.
+5. Feel free to toggle no for all privacy settings.
     <br>
    <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 10 21 35 AM" src="https://github.com/user-attachments/assets/816ffd66-35d4-4d9e-a061-bf9eb916c8b9" />
 
@@ -69,14 +69,18 @@ IIS is a web server that is part of Windows systems. We will use IIS to host our
    - Expand <b>Application Development Features</b>.
    - Check the checkbox next to <b>CGI</b> to enable it, and select <b>Ok</b>.
       <br>
-       <img height="80%" width="80%" alt="" src="https://github.com/user-attachments/assets/924f961f-1c78-4820-b711-0ba629994448" />
+      <img height="80%" width="80%" alt="" src="https://github.com/user-attachments/assets/924f961f-1c78-4820-b711-0ba629994448" />
 
 <h2>Extract osTicket Installation Files</h2>
 The dependencies needed for the osTicket installation are bundled together in a single ZIP folder for easy download.
 
 1. Open the browser on your VM.
 2. Copy and paste [this link](https://docs.google.com/document/d/1aT20BxyepQpP6PAVp9QQ_p1fYtP7Cip2UxhMYVfY97s/edit?tab=t.0) into the browser on your VM to download the ZIP folder containing all the necessary files for the osTicket installation.
-3. Click the folder icon on the download window in the browser.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 11 55 25 AM" src="https://github.com/user-attachments/assets/f7f53b4b-e7e3-46ad-9873-8543f7d2f1b9" />
+3. Click the folder icon on the downloads window in the browser.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 11 55 25 AM" src="https://github.com/user-attachments/assets/4940c2ec-1fb5-4f11-b153-b6e6bf2e3435" />
 4. Move the ZIP folder to your desktop.
 5. Right-click the ZIP folder and select <b>Extract All</b> to extract the files from the ZIP folder onto your desktop. This step is necessary because compressed files cannot be directly used by the system, as they need to be unpacked to their original format for installation. The extracted folder should be called “osTicket-Installation-Files”.
 
