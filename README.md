@@ -248,10 +248,14 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
    - Admin User:
      - Add your <b>Name</b>, <b>Last Name</b>, and an additional <b>Email address</b>.
      - Create a <b>username</b> and <b>password</b> for Admin User.
+       <br>
+       <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 16 28 PM" src="https://github.com/user-attachments/assets/52c5d938-05a5-4504-8568-80e48cf279d7" />
    - Database Settings:
      - MySQL Database: osTicket.
      - MySQL Username: root.
      - MySQL Password: The password you created when configuring MySQL.
+       <br>
+       <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 17 36 PM" src="https://github.com/user-attachments/assets/f11aa0d9-75a9-4797-91f9-a9aa591edc99" />
 - Click <b>Install Now</b>.
 
 <h2>Test Installation</h2>
