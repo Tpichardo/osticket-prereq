@@ -139,9 +139,13 @@ MySQL is a relational database management system used to store and manage data. 
 
 1. Right-click <b>“osTicket-v1.15.8.zip”</b> from the “osTicket-Installation-Files” folder and select <b>Extract All</b>.
 2. Open the unzipped foder <b>“osTicket-v1.15.8”</b>, and drag the <b>Upload</b> folder into <b>“c:\inetpub\wwwroot”</b>. The <b>wwwroot</b> folder is the root directory for IIS-hosted websites. By placing the osTicket files here, IIS will know where to find them when the application is accessed.
-3. Within <b>c:\inetpub\wwwroot</b>, rename “upload” to “osTicket”. This will help IIS serve the application under the name "osTicket" when accessed through a browser. Ex: <b>http://localhost/osTicket</b>
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 51 33 PM" src="https://github.com/user-attachments/assets/e7b3d89c-265f-4643-9b93-d1d837fcb3df" />
+3. Within <b>c:\inetpub\wwwroot</b>, rename “upload” to “osTicket”. This will help IIS serve the application under the name "osTicket" when accessed through a browser. Ex: <b>http://localhost/osTicket</b>.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 52 22 PM" src="https://github.com/user-attachments/assets/17b4e55f-d7b7-4a08-93d4-ea5fec42a448" />
 4. Stop and restart the server to apply changes:
-     - In IIS right-click the top-level entry labeled <b>osticket-vm</b> in IIS.
+     - In IIS right-click the top-level entry.
      - Select <b>Stop</b>, and then repeat the process to <b>Start</b> the server.
 
 <h2>Open osTicket in Browser</h2>
