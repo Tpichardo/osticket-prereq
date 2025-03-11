@@ -152,9 +152,14 @@ MySQL is a relational database management system used to store and manage data. 
 Let's access osTicket in the browser to ensure IIS is serving the app.
 
 1. In IIS, on the left-hand panel, select <b>Sites</b> from the file hierarchy.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-11 at 2 49 26 AM" src="https://github.com/user-attachments/assets/fce59458-3285-43aa-8b83-bebf960413e8" />
 2. Expland <b>Default Websites</b>.
 3. Select <b>osTicket</b>.
 4. In the right-hand panel, click <b>Browse *:80</b> to open osTicket in your browser.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 53 50 PM" src="https://github.com/user-attachments/assets/a7e60cf2-c872-490f-88fc-3a9678a875a0" />
+
 
 <h2>Enable PHP Extensions</h2>
 Some required PHP extensions are disabled by default. Lets enable them:
