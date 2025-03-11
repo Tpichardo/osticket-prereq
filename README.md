@@ -183,9 +183,13 @@ Some required PHP extensions are disabled by default. Lets enable them:
 The file <b>ost-sampleconfig.php</b> is a template configuration file included with osTicket. It is named this way by default to ensure flexibility and security during installation and updates. By renaming it, we are creating the active configuration file required for osTicket to function.
 
 1. Follow the path to rename the file:
-   - From: <b>C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</b>
-   - To: <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>
-   
+   - From: <b>C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</b>.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 1 01 55 PM" src="https://github.com/user-attachments/assets/15e7ac78-7646-462a-970c-72d8f2f57887" />
+   - To: <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 1 02 26 PM" src="https://github.com/user-attachments/assets/9b8d0dc4-c81a-49f2-bd20-fc3f9f0577c8" />
+
 <h3>Assign Permissions</h3>
 To allow osTicket to make changes on the backend and store database configuration details, we need to modify the permissions for <b>ost-config.php</b>.
 
