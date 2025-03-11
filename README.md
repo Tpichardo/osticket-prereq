@@ -109,6 +109,8 @@ The dependencies needed for the osTicket installation are bundled together in a 
    - Stop and restart the server to apply changes:
      - In IIS right-click the top-level entry.
      - Select <b>Stop</b>, then repeat the steps to <b>Start</b> the server.
+       <br>
+       <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 32 47 PM" src="https://github.com/user-attachments/assets/318df9e5-bd3a-4c83-afc6-a72c3da40b76" />
 
 <h2>Install the Rewrite Module</h2>
 The Rewrite Module helps IIS modify URLs to create user-friendly URLs that are easier to read, share, and remember.
