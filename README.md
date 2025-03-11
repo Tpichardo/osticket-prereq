@@ -31,19 +31,20 @@ Using a Virtual Machine to test software is a great practice because it keeps th
 <h2>Connect to Windows VM</h2>
 
 1. Open the Windows App and click on the <b>+</b> at the top right of the window. Then select <b>add PC</b>
-   
+   <br>
    <img src="https://i.imgur.com/q2CIjtQ.png" height="80%" width="80%" alt="interface for adding a PC on the Windows App"/>
-2. Paste your Windows VM's public IP address for <b>PC name</b>. Feel free to give your VM whatever friendly name you would like. I named mine windows-vm so that I can easily know what operating system is running on the PC. Then click <b>Add</b> to add the VM.
-   
-      <img src="https://i.imgur.com/cvBmV30.png" height="80%" width="80%" alt=""/>
-3. Click on the ellipsis and select <b>connect</b> to connect to the Windows VM.
-   
+3. Paste your Windows VM's public IP address for <b>PC name</b>. Feel free to give your VM whatever friendly name you would like. I named mine windows-vm so that I can easily know what operating system is running on the PC. Then click <b>Add</b> to add the VM.
+   <br>
+   <img src="https://i.imgur.com/cvBmV30.png" height="80%" width="80%" alt=""/>
+5. Click on the ellipsis and select <b>connect</b> to connect to the Windows VM.
+   <br>
    <img src="https://i.imgur.com/OKSJhL1.png" height="80%" width="80%" alt=""/>
-4. Add the username and password you created when you created your Virtual Machine in the Azure portal to authenticate, and click continue.
-   
-    <img src="https://i.imgur.com/dkhuqJB.png" height="80%" width="80%" alt=""/>
-5. Feel free to toggle no for all privacy settings.
-     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 10 21 35 AM" src="https://github.com/user-attachments/assets/816ffd66-35d4-4d9e-a061-bf9eb916c8b9" />
+7. Add the username and password you created when you created your Virtual Machine in the Azure portal to authenticate, and click continue.
+   <br>
+   <img src="https://i.imgur.com/dkhuqJB.png" height="80%" width="80%" alt=""/>
+9. Feel free to toggle no for all privacy settings.
+    <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 10 21 35 AM" src="https://github.com/user-attachments/assets/816ffd66-35d4-4d9e-a061-bf9eb916c8b9" />
 
 
 
@@ -52,17 +53,21 @@ Using a Virtual Machine to test software is a great practice because it keeps th
 IIS is a web server that is part of Windows systems. We will use IIS to host our osTicket web application. Since osTicket is built with PHP and IIS does not know how to process PHP files by itself, we will use CGI to pass requests for PHP files from IIS to the PHP interpreter. The PHP interpreter will then process the file, and CGI will send the result back to IIS, which will deliver the page to the browser.
 
 1. To Enable IIS:
-    - Go into the <b>Control Panel</b>. You can find it by typing <b>Control Panel</b> in the search bar on the bottom left.
+    - Go into the <b>Control Panel</b>.
     - Select <b>Programs</b>.
+      <br>
+      <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 10 29 23 AM" src="https://github.com/user-attachments/assets/ef0e58cf-2af9-4873-b48c-4d7b7b930761" />
     - Select <b>Turn Windows features on or off</b>.
     - Check the checkbox next to <b>Internet Information Services</b> to enable it.
-        <img height="65%" width="65%" alt="" src="https://github.com/user-attachments/assets/69ba977e-7d93-4d98-a47e-6b8d728b611c" />      
+      <br>
+      <img height="80%" width="80%" alt="" src="https://github.com/user-attachments/assets/69ba977e-7d93-4d98-a47e-6b8d728b611c" />      
 2. To Enable CGI:
    - Click the <b>+</b> to the left of <b>Internet Information Services</b> to expand it.
    - Expand <b>World Wide Web Services</b>.
    - Expand <b>Application Development Features</b>.
-   - Check the checkbox next to <b>CGI</b> to enable it, and select <b>Ok</b>.  
-       <img height="65%" width="65%" alt="" src="https://github.com/user-attachments/assets/924f961f-1c78-4820-b711-0ba629994448" />
+   - Check the checkbox next to <b>CGI</b> to enable it, and select <b>Ok</b>.
+      <br>
+       <img height="80%" width="80%" alt="" src="https://github.com/user-attachments/assets/924f961f-1c78-4820-b711-0ba629994448" />
 
 <h2>Extract osTicket Installation Files</h2>
 The dependencies needed for the osTicket installation are bundled together in a single ZIP folder for easy download.
