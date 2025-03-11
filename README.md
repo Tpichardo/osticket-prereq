@@ -123,6 +123,8 @@ MySQL is a relational database management system used to store and manage data. 
 1. Install <b>MySQL 5.5.62 (mysql-5.5.62-win32.msi)</b> from the “osTicket-Installation-Files” folder.
 2. Follow the installation Wizard:
    - Select <b>Typical</b> for Setup Type.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 27 42 PM" src="https://github.com/user-attachments/assets/b1abaad5-e421-4b7c-80ec-ad67b2498ed8" />
    - After installation, launch the configuation wizard.
    - For Serve Instance Configuration:
      - Select <b>Standard Configuration</b>.
