@@ -93,7 +93,7 @@ The dependencies needed for the osTicket installation are bundled together in a 
 3. Extract all the files from <b>PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip</b>), located in the “osTicket-Installation-Files” folder, into the <b>C:\PHP</b> folder.
    <br>
    <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 07 15 PM" src="https://github.com/user-attachments/assets/28be059f-2df4-484e-b0c7-cad1f6a1534a" />
-   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 09 24 PM" src="https://github.com/user-attachments/assets/c4540523-a964-46e5-a9c3-c5123a6a6519" />
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 09 24 PM" src="https://github.com/user-attachments/assets/6a2041fd-7d87-4e4e-9b85-2037d9df6f8b" />
 4. Install <b>VC_redist.x86.exe</b> from the “osTicket-Installation-Files” folder. This step ensures PHP has the necessary dependencies needed to work on Windows.
 5. Register PHP with IIS:
    - Open IIS as an Admin.
