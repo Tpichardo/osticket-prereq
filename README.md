@@ -279,4 +279,5 @@ To secure your osTicket installation and reduce vulnerabilities, follow these st
    - Delete: <b>C:\inetpub\wwwroot\osTicket\setup</b>.
 2. Set permissions to "Read" only: The ost-config.php file contains your database credentials. Changing its permission to "Read" only prevents sensitive information from being modified and enhances overall security.
    - Set Permissions to “Read” only: <b>C:\inetpub\wwwroot\osTicket\include\ost-config.php</b>.
-
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 23 39 PM" src="https://github.com/user-attachments/assets/53a7aa5e-e966-4c44-8168-f15de680d724" />
