@@ -88,6 +88,8 @@ The dependencies needed for the osTicket installation are bundled together in a 
 
 1. Install <b>PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)</b> from the “osTicket-Installation-Files” folder. This tool helps manage PHP configurations in IIS.
 2. Create the directory <b>C:\PHP</b>. This directory will store the PHP interpreter and related files.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 06 46 PM" src="https://github.com/user-attachments/assets/c5973974-b360-4d0e-b2f6-86f2cada6d2a" />
 3. Extract all the files from <b>PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip</b>), located in the “osTicket-Installation-Files” folder, into the <b>C:\PHP</b> folder.
 4. Install <b>VC_redist.x86.exe</b> from the “osTicket-Installation-Files” folder. This step ensures PHP has the necessary dependencies needed to work on Windows.
 5. Register PHP with IIS:
