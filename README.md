@@ -128,7 +128,11 @@ MySQL is a relational database management system used to store and manage data. 
    - After installation, launch the configuation wizard.
    - For Serve Instance Configuration:
      - Select <b>Standard Configuration</b>.
-     - Setup a simple password for the root user. Be sure to keep track of these credentials.
+       <br>
+       <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 34 12 PM" src="https://github.com/user-attachments/assets/32c919d5-52b4-43ea-b0b7-1a0f2e8de128" />
+     - Setup a new root password for the root user. Be sure to keep track of these credentials.
+       <br>
+       <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 34 37 PM" src="https://github.com/user-attachments/assets/15bc512f-d12e-4e41-9e2a-0edf90fa1c6e" />
      - Follow the remaining steps in the Wizard and select <b>Execute</b> to complete the setup.
 
 <h2>Setup osTicket files</h2>
