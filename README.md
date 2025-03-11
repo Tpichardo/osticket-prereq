@@ -97,8 +97,14 @@ The dependencies needed for the osTicket installation are bundled together in a 
 4. Install <b>VC_redist.x86.exe</b> from the “osTicket-Installation-Files” folder. This step ensures PHP has the necessary dependencies needed to work on Windows.
 5. Register PHP with IIS:
    - Open IIS as an Admin.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 18 29 PM" src="https://github.com/user-attachments/assets/ed01645a-66d9-46bf-8eb3-b630f5762533" />
    - Select <b>PHP Manager</b>.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 32 14 PM" src="https://github.com/user-attachments/assets/83fd195f-747d-44c9-95be-132ad3680029" />
    - Click <b>Register new PHP version</b>.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-10 at 9 11 36 PM" src="https://github.com/user-attachments/assets/f9daece9-897c-4312-9eb1-074e86d0bf89" />
    - Paste the file path to the PHP executable. Since we placed PHP in the <b>C:/PHP</b> directory, our path should be <b>C:\PHP\php-cgi.exe</b>.
    - Stop and restart the server to apply changes:
      - In IIS right-click the top-level entry.
