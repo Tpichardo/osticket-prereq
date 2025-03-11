@@ -225,9 +225,19 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
    <br>
    <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 3 49 11 PM" src="https://github.com/user-attachments/assets/5f669979-3ab0-45b7-9d59-3fe3d67cf553" />
 5. Create a database called <b>osTicket</b>:
-   -
+   - Right-click the top-level entry on the left-hand panel.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 03 05 PM" src="https://github.com/user-attachments/assets/c6cdc438-8736-4d1e-ac55-a5fbc350068f" />
+   - Select <b>Create new</b> -> <b>Database</b>.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 03 12 PM" src="https://github.com/user-attachments/assets/e5e25433-294c-4660-8909-5b03b657245e" />
+   - Provide a name for the database.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 03 28 PM" src="https://github.com/user-attachments/assets/e7f58c04-3785-4bee-bbf2-927b5944cbf8" />
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 03 52 PM" src="https://github.com/user-attachments/assets/d389617e-507f-4782-9d78-70e357878200" />
 
- 
+
 <h2>Database Setup & Final Installation</h2>
 
 1. In the browser, select <b>Continue</b> to continue the osTicket installation process, If you closed the window, the URL is  <b>http://localhost/osTicket</b>.
