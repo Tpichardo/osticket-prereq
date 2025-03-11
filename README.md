@@ -214,11 +214,18 @@ HeidiSQL provides us with a graphical user interface (GUI) for managing our MySQ
 
 1. Install <b>HeidiSQL</b> from From the “osTicket-Installation-Files” folder, and launch it.
 2. Click <b>New</b>.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 3 47 09 PM" src="https://github.com/user-attachments/assets/20003b36-e5c0-4f32-b7ee-5e663beb9496" />
 3. Create a new session:
    - Ensure that the <b>User</b> is <b>root</b>.
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 3 47 20 PM" src="https://github.com/user-attachments/assets/4da50271-d3dc-4632-be56-3acea22bd3b7" />
    - Add the password that you created when you configured your <b>MySQL</b> database.
 4. Select <b>Open</b> to connect to the session.
-5. Create a database called <b>osTicket</b>.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 3 49 11 PM" src="https://github.com/user-attachments/assets/5f669979-3ab0-45b7-9d59-3fe3d67cf553" />
+5. Create a database called <b>osTicket</b>:
+   -
 
  
 <h2>Database Setup & Final Installation</h2>
