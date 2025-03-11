@@ -265,8 +265,12 @@ To ensure that osTicket was properly installed and configured, let's browse to t
    - URL: http://localhost/osTicket/scp/login.php
    - Sign in with your <b>Admin User</b> credentials.
    - You should see 1 ticket in the queue with the subject: <b>osTicket Installed</b>. This confirms that osTicket is successfully installed!
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 19 50 PM" src="https://github.com/user-attachments/assets/979265c0-7370-41f5-9d73-c248a3cf5c15" />
 2. End User:
-   - URL: http://localhost/osTicket/ 
+   - URL: http://localhost/osTicket/
+     <br>
+     <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 5 20 21 PM" src="https://github.com/user-attachments/assets/7c162dc5-e867-4d30-9080-418ad9c3f5e6" />
  
 <h2>Post-Installation Cleanup</h2>
 To secure your osTicket installation and reduce vulnerabilities, follow these steps:
