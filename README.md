@@ -166,12 +166,17 @@ Some required PHP extensions are disabled by default. Lets enable them:
 1. In IIS, on the left-hand panel, select <b>Sites</b> -> <b>Default Websites</b> -> <b>osTicket</b>.
 2. Double click <b>PHP Manager</b>.
 3. Click <b>Enable or disable extension</b>.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 55 32 PM" src="https://github.com/user-attachments/assets/17a7a857-c8fb-4bcf-8d32-9fec91cd2788" />
 4. To enable an extension, right-click it and select <b>Enable</b>.
+   <br>
+   <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 56 01 PM" src="https://github.com/user-attachments/assets/6fe0231a-1c89-4ca3-a76a-c56dd8b053c2" />
    - Extensions to enable:
       - <b>php_imap.dll</b>
       - <b>php_intl.dll</b>
       - <b>php_opcache.dll</b>
 5. Refresh the browser to observe the changes or visit <b>http://localhost/osTicket</b>.
+   
 <h2>Configure ost-config.php</h2>
 
 <h3>Rename ost-sampleconfig.php:</h3>
