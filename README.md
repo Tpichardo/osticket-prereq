@@ -161,7 +161,7 @@ Let's access osTicket in the browser to ensure IIS is serving the app.
    <img height="80%" width="80%" alt="Screenshot 2025-03-06 at 12 54 29 PM" src="https://github.com/user-attachments/assets/d560946f-ec48-492f-81bc-b92b60663001" />
 
 <h2>Enable PHP Extensions</h2>
-Some required PHP extensions are disabled by default. Lets enable them:
+Some required PHP extensions are disabled by default. Let's enable them:
 
 1. In IIS, on the left-hand panel, select <b>Sites</b> -> <b>Default Websites</b> -> <b>osTicket</b>.
 2. Double click <b>PHP Manager</b>.
